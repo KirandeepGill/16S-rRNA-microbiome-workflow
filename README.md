@@ -86,14 +86,14 @@ Beta diversity (between-sample diversity) was assessed using Bray-Curtis dissimi
 ## Repository Structure
 
 ```
-16s-rRNA-analysis/
+16S-rRNA-microbiome-workflow/
 ├── scripts/
 │   ├── Diversity_Alpha_Beta.R
 │   └── Taxa_RelativeAbundance.R
 ├── figures/               
-│   ├── shannon_diversity.png
-│   ├── pcoa_bray_curtis.png
-│   └── taxa_relative_abundance.png             
+│   ├── Shannon_diversity.pdf
+│   ├── pcoa_bray_curtis.pdf
+│   └── taxa_relative_abundance.pdf             
 ├── .gitignore
 └── README.md
 ```
