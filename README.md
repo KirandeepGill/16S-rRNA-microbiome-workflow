@@ -11,7 +11,6 @@ This pipeline processes 16S rRNA amplicon data stored as a phyloseq object and p
 - Alpha diversity estimates (Shannon, Inverse Simpson) with Kruskal-Wallis and Dunn post-hoc testing
 - Beta diversity dissimilarity matrix (Bray-Curtis) with PCoA visualization
 
----
 ## Pipeline Overview
 
 ```
@@ -37,7 +36,6 @@ Raw phyloseq object
    PCoA scatter plot by sample type
 ```
 
----
 ## Scripts
 
 | Script | Description |
@@ -65,17 +63,6 @@ BiocManager::install(c("phyloseq", "microbiome"))
 install.packages("vegan")
 install.packages("ecodist")
 ```
-
----
-
-
-**Run in this order:**
-
-1. `scripts/Taxa_RelativeAbundance.R` — generates relative abundance bar plots
-2. `scripts/Diversity_Alpha_Beta.R` — calculates diversity metrics and generates PCoA plot
-
-Both scripts use the `GlobalPatterns` dataset loaded directly from the phyloseq package — no external data download is needed.
-
 ## Dataset
 
 **GlobalPatterns** — a widely used benchmark dataset included in the phyloseq R package.
@@ -84,7 +71,7 @@ Both scripts use the `GlobalPatterns` dataset loaded directly from the phyloseq 
 - **Samples:** 26 samples across 9 environment types (Soil, Ocean, Freshwater, Human gut, Mock, etc.)
 - **Taxa:** ~19,000 OTUs across Bacteria, Archaea, and Eukaryota
 
----
+
 
 ## Methods Summary
 
@@ -94,7 +81,7 @@ Alpha diversity (within-sample diversity) was calculated using the Shannon index
 ### Beta Diversity
 Beta diversity (between-sample diversity) was assessed using Bray-Curtis dissimilarity computed via the vegan package on phylum-level relative abundance data. Dimensionality reduction was performed using Principal Coordinates Analysis (PCoA) via the ecodist package, and results were visualized with ggplot2.
 
----
+
 
 ## Repository Structure
 
