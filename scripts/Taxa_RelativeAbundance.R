@@ -1,4 +1,11 @@
-## This code calculates the relative abundance of Phylum level taxa from a phyloseq object and plots a bargraph using ggplot
+# =============================================================================
+# Script: Taxa_RelativeAbundance.R
+# Description: calculates the relative abundance of Phylum level taxa from a phyloseq object and plots a bargraph using ggplot.
+# Dataset: GlobalPatterns (phyloseq built-in; Human Microbiome / Environmental)
+# Author: Kirandeep Gill
+# Date: 2024
+# =============================================================================
+
 
 ## Load required libraries
 library(phyloseq)
