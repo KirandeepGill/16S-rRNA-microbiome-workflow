@@ -1,3 +1,12 @@
+# =============================================================================
+# Script: Diversity_Alpha_Beta.R
+# Description: Calculates Shannon and Inverse Simpson alpha diversity,
+#              performs Kruskal-Wallis + Dunn post-hoc tests, and computes
+#              Bray-Curtis dissimilarity with PCoA visualization.
+# Dataset: GlobalPatterns (phyloseq built-in; Human Microbiome / Environmental)
+# Author: Kirandeep Gill
+# =============================================================================
+
 ## This code calculates the alpha-diversity and the beta-diversity from a phyloseq object.
 
 ## Load the required packages
