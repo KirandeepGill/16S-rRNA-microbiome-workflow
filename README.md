@@ -98,7 +98,7 @@ Beta diversity (between-sample diversity) was assessed using Bray-Curtis dissimi
 └── README.md
 ```
 
-<sub><span style="color:black"[View the full analysis report](https://kirandeepgill.github.io/16S-rRNA-microbiome-workflow)</span></sub>
+<sub>[View the full analysis report](https://kirandeepgill.github.io/16S-rRNA-microbiome-workflow)</sub>
 ---
 
 
