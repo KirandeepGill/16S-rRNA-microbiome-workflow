@@ -22,18 +22,13 @@ Raw phyloseq object
         ▼
 2. Relative abundance transformation
         │
-        ├──────────────────────────┐
-        ▼                          ▼
-3a. Alpha Diversity            3b. Taxa Relative Abundance
-    Shannon / Inv. Simpson         Agglomerate to Phylum level
-    Kruskal-Wallis test            Stacked bar plots
-    Dunn post-hoc test
-        │
-        ▼
-4. Beta Diversity
-   Bray-Curtis dissimilarity matrix
-   PCoA dimensionality reduction
-   PCoA scatter plot by sample type
+        ├──────────────────────────│───────────────────────────────────────│
+        ▼                          ▼                                       ▼
+3a. Alpha Diversity            3b. Taxa Relative Abundance              3c. Beta Diversity
+    Shannon / Inv. Simpson         Agglomerate to Phylum level            Bray-Curtis dissimilarity matrix
+    Kruskal-Wallis test            Stacked bar plots                      PCoA dimensionality reduction
+    Dunn post-hoc test                                                    PCoA scatter plot by sample type
+   
 ```
 
 ## Scripts
